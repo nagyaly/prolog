@@ -34,7 +34,7 @@ Load the file using `consult(family).` or `[family].` or from file -> consult
 | `?-parent(X, liz).` | `X = tom` | who is the parent of liz |
 | `?-parent(bob, X).` | `X = ann;` <br> `X = pat.` | who are the childs of bob |
 | `?-parent(X, Y).` | `X = bob;` <br> `Y = ann;` <br> `...` | who are the parents of who |
-| `?-parent(X, jim), parent(X, Y).` | `X = bob` <br> `Y = pat;` <br> `...` | who is the father and grandfather of jim |
+| `?-parent(X, jim), parent(Y, X).` | `X = bob` <br> `Y = pat;` <br> `...` | who is the father and grandfather of jim |
 | `?-parent(tom, X), parent(X, Y).` | `X = bob,` <br> `Y = ann;` <br> `X = bob,` <br> `Y = pat;` <br> `false.` | who are the childs and grandchilds of tom |
 
 ---
