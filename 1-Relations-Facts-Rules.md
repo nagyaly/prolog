@@ -1,4 +1,4 @@
-## Defining Relations using Facts and Rules [sqlmap]
+## Defining Relations using Facts and Rules
 
 
 <img src="https://www.swi-prolog.org/icons/swipl.png" style="width:120px;"/>
