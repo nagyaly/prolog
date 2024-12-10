@@ -3,7 +3,7 @@
 
 <img src="https://www.swi-prolog.org/icons/swipl.png" style="width:120px;"/>
 
-Prolog is a programming language centred around a small set of basic mechanisms, including pattern matching, tree-based data structuring and automatic backtracking. This small set constitutes a surprisingly powerful and flexible programming framework. Prolog is especially well suited for problems that involve objects — in particular, structured objects — and relations between them.
+Prolog represents knowledge using facts and rules. Facts are simple declarative statements about objects and their properties, while rules express logical relationships between facts. This declarative approach allows for concise and intuitive knowledge representation. Prolog's inference engine can then reason over these facts and rules to derive new knowledge, making it a powerful tool for solving problems that involve logical reasoning.
 
 
 ---
@@ -20,7 +20,7 @@ parent(bob, ann).
 parent(bob, pat).
 parent(pat, jim).
 ```
-Load the file using `consult(family).` or `[family].` or from file -> consult
+consult the file
 
 <img src="media/1.png" style="width:300px;"/>
 
